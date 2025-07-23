@@ -51,7 +51,9 @@ mongoose
 //     email: "test2@gmail.com",
 //     attempts: 0
 // })
-
+/*
+    //commitment //spam
+*/
 //testAttempts.save().then(res => console.log(res)).catch(err => console.log(err))
 
 // transporter.sendMail(mailOptions, function(err, info) {
