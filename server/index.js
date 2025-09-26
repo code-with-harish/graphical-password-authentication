@@ -38,31 +38,4 @@ mongoose
         app.listen(process.env.PORT)
         console.log("Server running...")
     })
-    .catch(err => console.log(err))
-
-
-// const currentAttempts = await userAttemptsModel.findOne({email: "test@gmail.com"})
-// userAttemptsModel.findOneAndUpdate({email: "test@gmail.com", attempts: currentAttempts.attempts+1}).then(res => console.log(res)).catch(err => console.log(err))
-
-// await usertModel.findOne({username: "test"})
-
-// const testAttempts = new userAttemptsModel({
-//     username: "test2",
-//     email: "test2@gmail.com",
-//     attempts: 0
-// })
-/*
-    //commitment //spam
-*/
-//testAttempts.save().then(res => console.log(res)).catch(err => console.log(err))
-
-// transporter.sendMail(mailOptions, function(err, info) {
-//     if (err) console.log(err)
-//     else console.log("Email Sent: " + info.response)
-// })
-
-// const result = unsplash.search.getPhotos({
-//     query: 'cats',
-//     perPage: 64,
-//     orientation: 'squarish'
-// }).then(result => console.log(result.response.results))
+    .catch(err => console.log(err))
