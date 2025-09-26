@@ -1,4 +1,4 @@
-<h1 align="center">Graphical Password Authentication</h1>
+<h1 align="center"><a>Graphical Password Authentication</a></h1>
 
 <div align="center">
   <img src="https://img.shields.io/github/license/code-with-harish/graphical-password-authentication" />
